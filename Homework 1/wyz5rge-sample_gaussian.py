@@ -24,3 +24,5 @@ plt.scatter(samples_cm_identity[:, 0], samples_cm_identity[:, 1], color='teal',
             label='Samples generated with Identity matrix')
 plt.scatter(samples_cm_diagonal[:, 0], samples_cm_diagonal[:, 1], color='pink',
             label='Samples generated with Diagonal matrix')
+plt.legend()
+plt.show()
